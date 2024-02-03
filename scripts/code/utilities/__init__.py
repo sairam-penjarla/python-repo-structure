@@ -1,21 +1,18 @@
 """
-COMMON UTILITY FUNCTIONS
+UTILITY FUNCTIONS
 ========================
 
 Description:
 ------------
-this file contains common unitilies that are used across the entire repository.
+This file contains all unitilies that are used across the entire repository.
 
 Contents:
 ----------
-- Function 1
-- Function 2
-- Function 3
-_ ...
+- common_utils.py
 
 Liscence:
 ---------
-specify your liscence here
+<specify your liscence here>
 """
 
 __author__ = "sairam"

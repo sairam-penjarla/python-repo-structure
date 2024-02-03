@@ -2,8 +2,9 @@ import yaml
 
 def read_config():
     paths = [
-        "../config/g_config.yaml",
-        "code/config/l_config.yaml",
+        "../config/config.yaml",
+        "../config/hyper_parameters.yaml",
+        "code/config/config.yaml",
     ]
 
     config = {}

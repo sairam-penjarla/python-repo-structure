@@ -1,4 +1,4 @@
-from code.logging import logger
+from code.logging import logger  # Importing logger module for logging
 from code.utilities.common_utils import CommonUtils
 
 class DataGathering:
@@ -7,9 +7,10 @@ class DataGathering:
         self.config = config
 
     def run(self):
-        num_1 = self.config['values']['a']
-        num_2 = self.config['values']['b']
-        result = num_1 + num_2
-        logger.info("Succesfully added two numbers")
-        logger.info(f"Result: {result}")
-        return result
+        # write code here
+        #
+        #
+        #
+        #
+        #
+        pass
