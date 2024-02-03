@@ -1,0 +1,3 @@
+[2024-02-01 23:14:02,603: INFO: main.py: Value of a: 1]
+[2024-02-01 23:14:02,603: INFO: main.py: Value of b: 2]
+[2024-02-01 23:14:02,603: INFO: main.py: value of a+b: 3]
