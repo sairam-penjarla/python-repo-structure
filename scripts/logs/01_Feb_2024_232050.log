@@ -1,4 +1,0 @@
-[2024-02-01 23:20:51,002: INFO: common_utils.py: Value of a: 1]
-[2024-02-01 23:20:51,002: INFO: common_utils.py: Value of b: 2]
-[2024-02-01 23:20:51,002: INFO: main.py: value of a+b: 3]
-[2024-02-01 23:20:51,003: INFO: main.py: value of a*b: 2]

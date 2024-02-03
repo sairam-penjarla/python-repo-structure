@@ -1,5 +1,0 @@
-pyYaml
-pandas
-numpy
-tensorflow
-torch
