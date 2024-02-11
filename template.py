@@ -35,3 +35,26 @@ for path in file_paths:
         with open(path, "w") as file:
             file.write("")
         print(f"File created: {path}")
+
+print("#"*100)
+
+import os
+base_path = "./"
+
+def show_contents(base_path, depth):
+    items = os.listdir(base_path)
+    items = [x for x in items if "." not in x] + [x for x in items if "." in x]
+    for i in range(len(items)):
+        item = items[i]
+        if "." in item:
+            if item != items[-1]:
+                print("   │"*depth + "   ├── " + item)
+            else:
+                print("   │"*depth + "   └── " + item)
+        else:
+            print("   │"*depth + "   ├── " + item + "/")
+            depth+=1
+            show_contents(os.path.join(base_path, item), depth)
+            depth-=1
+print(".\n└──")
+show_contents(base_path, 0)
